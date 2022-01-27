@@ -1,0 +1,36 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr:hover {background-color: #;}
+
+.wrapper {
+	height:15px;
+	width:15px;
+	margin:0 auto;
+	padding: 20px;	
+}
+.inputs {
+	width:80%;
+	padding: 10px;
+	border:none;
+	background-color:#D6EEEE;
+}
+.btn {
+	background-color:blue;
+	color:white;
+	border:none;
+	width:124px;
+	height:48px;
+}
